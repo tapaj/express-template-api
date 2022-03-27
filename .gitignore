@@ -3,3 +3,6 @@
 
 # 3rd Party NPM modules
 node_modules
+
+# Environment variable file
+.env

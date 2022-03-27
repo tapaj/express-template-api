@@ -2,10 +2,10 @@
   "name": "express-template-api",
   "version": "0.0.1",
   "description": "A template for creating APIs using Node.js, MySQL, and Express.js",
-  "main": "index.js",
+  "main": "./src/index.js",
   "scripts": {
-    "start": "node ./index.js",
-    "dev": "nodemon ./index.js",
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +20,9 @@
   "homepage": "https://github.com/tapaj/express-template-api#readme",
   "devDependencies": {
     "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3"
   }
 }
