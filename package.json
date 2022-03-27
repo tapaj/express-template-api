@@ -1,0 +1,24 @@
+{
+  "name": "express-template-api",
+  "version": "0.0.1",
+  "description": "A template for creating APIs using Node.js, MySQL, and Express.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "dev": "nodemon ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tapaj/express-template-api.git"
+  },
+  "author": "Tapaj Kumar Das <tapajkumardas@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tapaj/express-template-api/issues"
+  },
+  "homepage": "https://github.com/tapaj/express-template-api#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
